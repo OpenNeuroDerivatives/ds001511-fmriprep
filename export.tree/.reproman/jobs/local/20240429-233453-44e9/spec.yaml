@@ -1,0 +1,195 @@
+_command_array:
+- code/containers/scripts/singularity_cmd run --bind /tmp:/node_tmp code/containers/images/bids/bids-fmriprep--23.2.1.sing
+  sourcedata/raw /scratch1/03201/jbwexler/openneuro_derivatives/derivatives/fmriprep/ds001511-fmriprep
+  participant --participant-label 'sid000001' -w '/node_tmp/work_dir/fmriprep/ds001511_sub-sid000001'
+  -vv --nthreads 14 --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file
+  /home1/03201/jbwexler/.freesurfer.txt --me-output-echos --cifti-output --skull-strip-t1w
+  force --mem_mb 37500 --bids-database-dir /tmp --md-only-boilerplate --level minimal
+  --use-syn-sdc warn
+- code/containers/scripts/singularity_cmd run --bind /tmp:/node_tmp code/containers/images/bids/bids-fmriprep--23.2.1.sing
+  sourcedata/raw /scratch1/03201/jbwexler/openneuro_derivatives/derivatives/fmriprep/ds001511-fmriprep
+  participant --participant-label 'sid000002' -w '/node_tmp/work_dir/fmriprep/ds001511_sub-sid000002'
+  -vv --nthreads 14 --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file
+  /home1/03201/jbwexler/.freesurfer.txt --me-output-echos --cifti-output --skull-strip-t1w
+  force --mem_mb 37500 --bids-database-dir /tmp --md-only-boilerplate --level minimal
+  --use-syn-sdc warn
+- code/containers/scripts/singularity_cmd run --bind /tmp:/node_tmp code/containers/images/bids/bids-fmriprep--23.2.1.sing
+  sourcedata/raw /scratch1/03201/jbwexler/openneuro_derivatives/derivatives/fmriprep/ds001511-fmriprep
+  participant --participant-label 'sid000003' -w '/node_tmp/work_dir/fmriprep/ds001511_sub-sid000003'
+  -vv --nthreads 14 --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file
+  /home1/03201/jbwexler/.freesurfer.txt --me-output-echos --cifti-output --skull-strip-t1w
+  force --mem_mb 37500 --bids-database-dir /tmp --md-only-boilerplate --level minimal
+  --use-syn-sdc warn
+- code/containers/scripts/singularity_cmd run --bind /tmp:/node_tmp code/containers/images/bids/bids-fmriprep--23.2.1.sing
+  sourcedata/raw /scratch1/03201/jbwexler/openneuro_derivatives/derivatives/fmriprep/ds001511-fmriprep
+  participant --participant-label 'sid000004' -w '/node_tmp/work_dir/fmriprep/ds001511_sub-sid000004'
+  -vv --nthreads 14 --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file
+  /home1/03201/jbwexler/.freesurfer.txt --me-output-echos --cifti-output --skull-strip-t1w
+  force --mem_mb 37500 --bids-database-dir /tmp --md-only-boilerplate --level minimal
+  --use-syn-sdc warn
+- code/containers/scripts/singularity_cmd run --bind /tmp:/node_tmp code/containers/images/bids/bids-fmriprep--23.2.1.sing
+  sourcedata/raw /scratch1/03201/jbwexler/openneuro_derivatives/derivatives/fmriprep/ds001511-fmriprep
+  participant --participant-label 'sid000005' -w '/node_tmp/work_dir/fmriprep/ds001511_sub-sid000005'
+  -vv --nthreads 14 --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file
+  /home1/03201/jbwexler/.freesurfer.txt --me-output-echos --cifti-output --skull-strip-t1w
+  force --mem_mb 37500 --bids-database-dir /tmp --md-only-boilerplate --level minimal
+  --use-syn-sdc warn
+- code/containers/scripts/singularity_cmd run --bind /tmp:/node_tmp code/containers/images/bids/bids-fmriprep--23.2.1.sing
+  sourcedata/raw /scratch1/03201/jbwexler/openneuro_derivatives/derivatives/fmriprep/ds001511-fmriprep
+  participant --participant-label 'sid000006' -w '/node_tmp/work_dir/fmriprep/ds001511_sub-sid000006'
+  -vv --nthreads 14 --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file
+  /home1/03201/jbwexler/.freesurfer.txt --me-output-echos --cifti-output --skull-strip-t1w
+  force --mem_mb 37500 --bids-database-dir /tmp --md-only-boilerplate --level minimal
+  --use-syn-sdc warn
+- code/containers/scripts/singularity_cmd run --bind /tmp:/node_tmp code/containers/images/bids/bids-fmriprep--23.2.1.sing
+  sourcedata/raw /scratch1/03201/jbwexler/openneuro_derivatives/derivatives/fmriprep/ds001511-fmriprep
+  participant --participant-label 'sid000007' -w '/node_tmp/work_dir/fmriprep/ds001511_sub-sid000007'
+  -vv --nthreads 14 --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file
+  /home1/03201/jbwexler/.freesurfer.txt --me-output-echos --cifti-output --skull-strip-t1w
+  force --mem_mb 37500 --bids-database-dir /tmp --md-only-boilerplate --level minimal
+  --use-syn-sdc warn
+- code/containers/scripts/singularity_cmd run --bind /tmp:/node_tmp code/containers/images/bids/bids-fmriprep--23.2.1.sing
+  sourcedata/raw /scratch1/03201/jbwexler/openneuro_derivatives/derivatives/fmriprep/ds001511-fmriprep
+  participant --participant-label 'sid000008' -w '/node_tmp/work_dir/fmriprep/ds001511_sub-sid000008'
+  -vv --nthreads 14 --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file
+  /home1/03201/jbwexler/.freesurfer.txt --me-output-echos --cifti-output --skull-strip-t1w
+  force --mem_mb 37500 --bids-database-dir /tmp --md-only-boilerplate --level minimal
+  --use-syn-sdc warn
+- code/containers/scripts/singularity_cmd run --bind /tmp:/node_tmp code/containers/images/bids/bids-fmriprep--23.2.1.sing
+  sourcedata/raw /scratch1/03201/jbwexler/openneuro_derivatives/derivatives/fmriprep/ds001511-fmriprep
+  participant --participant-label 'sid000009' -w '/node_tmp/work_dir/fmriprep/ds001511_sub-sid000009'
+  -vv --nthreads 14 --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file
+  /home1/03201/jbwexler/.freesurfer.txt --me-output-echos --cifti-output --skull-strip-t1w
+  force --mem_mb 37500 --bids-database-dir /tmp --md-only-boilerplate --level minimal
+  --use-syn-sdc warn
+- code/containers/scripts/singularity_cmd run --bind /tmp:/node_tmp code/containers/images/bids/bids-fmriprep--23.2.1.sing
+  sourcedata/raw /scratch1/03201/jbwexler/openneuro_derivatives/derivatives/fmriprep/ds001511-fmriprep
+  participant --participant-label 'sid000010' -w '/node_tmp/work_dir/fmriprep/ds001511_sub-sid000010'
+  -vv --nthreads 14 --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file
+  /home1/03201/jbwexler/.freesurfer.txt --me-output-echos --cifti-output --skull-strip-t1w
+  force --mem_mb 37500 --bids-database-dir /tmp --md-only-boilerplate --level minimal
+  --use-syn-sdc warn
+- code/containers/scripts/singularity_cmd run --bind /tmp:/node_tmp code/containers/images/bids/bids-fmriprep--23.2.1.sing
+  sourcedata/raw /scratch1/03201/jbwexler/openneuro_derivatives/derivatives/fmriprep/ds001511-fmriprep
+  participant --participant-label 'sid000011' -w '/node_tmp/work_dir/fmriprep/ds001511_sub-sid000011'
+  -vv --nthreads 14 --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file
+  /home1/03201/jbwexler/.freesurfer.txt --me-output-echos --cifti-output --skull-strip-t1w
+  force --mem_mb 37500 --bids-database-dir /tmp --md-only-boilerplate --level minimal
+  --use-syn-sdc warn
+- code/containers/scripts/singularity_cmd run --bind /tmp:/node_tmp code/containers/images/bids/bids-fmriprep--23.2.1.sing
+  sourcedata/raw /scratch1/03201/jbwexler/openneuro_derivatives/derivatives/fmriprep/ds001511-fmriprep
+  participant --participant-label 'sid000012' -w '/node_tmp/work_dir/fmriprep/ds001511_sub-sid000012'
+  -vv --nthreads 14 --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file
+  /home1/03201/jbwexler/.freesurfer.txt --me-output-echos --cifti-output --skull-strip-t1w
+  force --mem_mb 37500 --bids-database-dir /tmp --md-only-boilerplate --level minimal
+  --use-syn-sdc warn
+- code/containers/scripts/singularity_cmd run --bind /tmp:/node_tmp code/containers/images/bids/bids-fmriprep--23.2.1.sing
+  sourcedata/raw /scratch1/03201/jbwexler/openneuro_derivatives/derivatives/fmriprep/ds001511-fmriprep
+  participant --participant-label 'sid000013' -w '/node_tmp/work_dir/fmriprep/ds001511_sub-sid000013'
+  -vv --nthreads 14 --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file
+  /home1/03201/jbwexler/.freesurfer.txt --me-output-echos --cifti-output --skull-strip-t1w
+  force --mem_mb 37500 --bids-database-dir /tmp --md-only-boilerplate --level minimal
+  --use-syn-sdc warn
+_container_command_str: code/containers/scripts/singularity_cmd run --bind /tmp:/node_tmp
+  code/containers/images/bids/bids-fmriprep--23.2.1.sing sourcedata/raw /scratch1/03201/jbwexler/openneuro_derivatives/derivatives/fmriprep/ds001511-fmriprep
+  participant --participant-label '{p[sub]}' -w '/node_tmp/work_dir/fmriprep/ds001511_sub-{p[sub]}'
+  -vv --nthreads 14 --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file
+  /home1/03201/jbwexler/.freesurfer.txt --me-output-echos --cifti-output --skull-strip-t1w
+  force --mem_mb 37500 --bids-database-dir /tmp --md-only-boilerplate --level minimal
+  --use-syn-sdc warn
+_dataset_id: 44a31be3-dff1-43ec-8ced-1a334d0d1b80
+_extra_inputs: &id001
+- code/containers/images/bids/bids-fmriprep--23.2.1.sing
+_extra_inputs_array:
+- *id001
+- *id001
+- *id001
+- *id001
+- *id001
+- *id001
+- *id001
+- *id001
+- *id001
+- *id001
+- *id001
+- *id001
+- *id001
+_head: 9cbd41730c003a7041329cecb02935dbf582cd57
+_inputs_array: []
+_jobid: 20240429-233453-44e9
+_meta_directory: /scratch1/03201/jbwexler/openneuro_derivatives/derivatives/fmriprep/ds001511-fmriprep/.reproman/jobs/local/20240429-233453-44e9
+_meta_directory_rel: .reproman/jobs/local/20240429-233453-44e9
+_num_subjobs: 13
+_outputs_array: []
+_reproman_version: 0.4.1
+_resolved_batch_parameters:
+- sub: sid000001
+- sub: sid000002
+- sub: sid000003
+- sub: sid000004
+- sub: sid000005
+- sub: sid000006
+- sub: sid000007
+- sub: sid000008
+- sub: sid000009
+- sub: sid000010
+- sub: sid000011
+- sub: sid000012
+- sub: sid000013
+_resolved_command_str: sourcedata/raw /scratch1/03201/jbwexler/openneuro_derivatives/derivatives/fmriprep/ds001511-fmriprep
+  participant --participant-label '{p[sub]}' -w '/node_tmp/work_dir/fmriprep/ds001511_sub-{p[sub]}'
+  -vv --nthreads 14 --omp-nthreads 7 --skip-bids-validation --notrack --fs-license-file
+  /home1/03201/jbwexler/.freesurfer.txt --me-output-echos --cifti-output --skull-strip-t1w
+  force --mem_mb 37500 --bids-database-dir /tmp --md-only-boilerplate --level minimal
+  --use-syn-sdc warn
+_spec_version: '1.0'
+_submission_id: null
+batch_parameters:
+- sub=sid000001,sid000002,sid000003,sid000004,sid000005,sid000006,sid000007,sid000008,sid000009,sid000010,sid000011,sid000012,sid000013
+command:
+- sourcedata/raw
+- /scratch1/03201/jbwexler/openneuro_derivatives/derivatives/fmriprep/ds001511-fmriprep
+- participant
+- --participant-label
+- '{p[sub]}'
+- -w
+- /node_tmp/work_dir/fmriprep/ds001511_sub-{p[sub]}
+- -vv
+- --nthreads
+- '14'
+- --omp-nthreads
+- '7'
+- --skip-bids-validation
+- --notrack
+- --fs-license-file
+- /home1/03201/jbwexler/.freesurfer.txt
+- --me-output-echos
+- --cifti-output
+- --skull-strip-t1w
+- force
+- --mem_mb
+- '37500'
+- --bids-database-dir
+- /tmp
+- --md-only-boilerplate
+- --level
+- minimal
+- --use-syn-sdc
+- warn
+container: code/containers/bids-fmriprep
+job_name: ds001511-fmriprep
+killjob_factors: .85,.25
+launcher: 'true'
+local_directory: /scratch1/03201/jbwexler/openneuro_derivatives/derivatives/fmriprep/ds001511-fmriprep
+mail_type: END
+mail_user: jbwexler@stanford.edu
+num_nodes: '4'
+num_processes: '13'
+orchestrator: datalad-no-remote
+queue: normal
+resource_id: bc1235e8-b28c-11eb-bce1-e4434b618f52
+resource_name: local
+root_directory: /home1/03201/jbwexler/.reproman/run-root
+submitter: slurm
+walltime: '24:00:00'
+working_directory: /scratch1/03201/jbwexler/openneuro_derivatives/derivatives/fmriprep/ds001511-fmriprep
